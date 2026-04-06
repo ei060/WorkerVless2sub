@@ -1,4 +1,9 @@
-name = "vless2sub-worker"
+name = "workervless2sub"
 main = "_worker.js"
-compatibility_date = "2025-09-07"
-keep_vars = true
+compatibility_date = "2024-01-01"
+type = "modules"
+
+[vars]
+HOST = "154.17.14.229"
+UUID = "620dc82f-b329-468c-9b38-91a7f9b61911"
+PATH = "/xray-ws"
